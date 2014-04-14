@@ -64,7 +64,7 @@
         <item name="android:paddingLeft">0dip</item>
      </style>
 
-    <style name="ComposeFieldLayout" parent="android:Widget.Holo.Light.EditText">
+    <style name="ComposeFieldLayout" parent="android:Widget.Holo.EditText">
         <item name="android:addStatesFromChildren">true</item>
         <item name="android:focusable">false</item>
         <item name="android:focusableInTouchMode">false</item>
@@ -103,13 +103,13 @@
         <item name="android:maxLines">1</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:textColor">#333333</item>
+        <item name="android:textColor">#cccccc</item>
         <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
         <item name="android:ellipsize">end</item>
     </style>
 
     <style name="AttachmentSize" parent="@style/AttachmentName">
-        <item name="android:textColor">#aaaaaa</item>
+        <item name="android:textColor">#555555</item>
         <item name="android:textSize">12sp</item>
     </style>
 
@@ -154,7 +154,7 @@
         <item name="android:singleLine">true</item>
         <item name="android:includeFontPadding">false</item>
         <item name="android:textSize">14sp</item>
-        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textColor">#ff888888</item>
         <item name="android:textStyle">bold</item>
         <item name="android:paddingTop">4dp</item>
         <item name="android:paddingBottom">4dp</item>
@@ -168,7 +168,7 @@
     </style>
 
     <!-- Browse list item styles -->
-    <style name="ConversationListFade" parent="@android:style/Widget.Holo.Light.ListView">
+    <style name="ConversationListFade" parent="@android:style/Widget.Holo.ListView">
         <item name="android:divider">@android:color/transparent</item>
         <item name="android:dividerHeight">0dip</item>
     </style>
@@ -177,7 +177,7 @@
     <!-- Undo bar styles -->
     <style name="AbstractUndoTextStyle">
         <item name="android:textSize">12sp</item>
-        <item name="android:textColor">#aaaaaa</item>
+        <item name="android:textColor">#555555</item>
         <item name="android:textStyle">bold</item>
     </style>
 
@@ -192,9 +192,9 @@
         <item name="android:windowExitAnimation">@anim/dialog_exit</item>
     </style>
 
-    <style name="MinTimeProgressViewStyle" parent="@android:style/Widget.Holo.Light.ProgressBar" />
+    <style name="MinTimeProgressViewStyle" parent="@android:style/Widget.Holo.ProgressBar" />
 
-    <style name="MinTimeProgressDialogStyle" parent="@android:style/Theme.Holo.Light.Dialog">
+    <style name="MinTimeProgressDialogStyle" parent="@android:style/Theme.Holo.Dialog">
         <item name="android:windowAnimationStyle">@style/MinTimeAnimationStyle</item>
         <item name="android:windowBackground">@android:color/transparent</item>
         <item name="android:windowContentOverlay">@null</item>
@@ -337,11 +337,11 @@
     </style>
 
     <!-- Widget styles -->
-    <style name="WidgetTitle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title.Inverse">
+    <style name="WidgetTitle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
         <item name="android:singleLine">true</item>
     </style>
 
-    <style name="WidgetSubtitle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Subtitle.Inverse">
+    <style name="WidgetSubtitle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Subtitle">
         <item name="android:singleLine">true</item>
     </style>
 
@@ -354,41 +354,41 @@
         <item name="android:layout_marginTop">16dip</item>
     </style>
 
-    <style name="ShortcutWidgetTheme" parent="@android:style/Theme.Holo.Light.DialogWhenLarge">
+    <style name="ShortcutWidgetTheme" parent="@android:style/Theme.Holo.DialogWhenLarge">
         <item name="android:actionOverflowButtonStyle">@style/OverflowButtonStyle</item>
         <item name="android:homeAsUpIndicator">@drawable/ic_up_holo_light</item>
     </style>
 
-    <style name="ComposeTheme" parent="@android:style/Theme.Holo.Light">
+    <style name="ComposeTheme" parent="@android:style/Theme.Holo">
         <item name="android:actionOverflowButtonStyle">@style/OverflowButtonStyle</item>
-        <item name="android:colorBackground">@android:color/white</item>
-        <item name="android:colorBackgroundCacheHint">@android:color/white</item>
+        <item name="android:colorBackground">@android:color/black</item>
+        <item name="android:colorBackgroundCacheHint">@android:color/black</item>
         <item name="android:homeAsUpIndicator">@drawable/ic_up_holo_light</item>
-        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:windowBackground">@android:color/black</item>
     </style>
 
     <style name="InvisibleShortcutWidgetTheme" parent="@style/ShortcutWidgetTheme">
         <item name="android:windowNoDisplay">true</item>
     </style>
 
-    <style name="PlainSpinnerDropdown" parent="@android:style/Widget.Holo.Light.Spinner">
+    <style name="PlainSpinnerDropdown" parent="@android:style/Widget.Holo.Spinner">
         <item name="android:background">@null</item>
     </style>
 
-    <style name="PlainActionBarStyle" parent="@android:style/Widget.Holo.Light.ActionBar.Solid">
+    <style name="PlainActionBarStyle" parent="@android:style/Widget.Holo.ActionBar.Solid">
         <item name="android:displayOptions"></item>
     </style>
 
     <style name="OverflowButtonStyle"
-           parent="@android:style/Widget.Holo.Light.ActionButton.Overflow">
+           parent="@android:style/Widget.Holo.ActionButton.Overflow">
         <item name="android:src">@drawable/ic_menu_moreoverflow_normal_holo_light</item>
     </style>
 
-    <style name="UnifiedEmailTheme" parent="@android:style/Theme.Holo.Light">
+    <style name="UnifiedEmailTheme" parent="@android:style/Theme.Holo">
         <item name="android:actionDropDownStyle">@style/PlainSpinnerDropdown</item>
         <item name="android:actionOverflowButtonStyle">@style/OverflowButtonStyle</item>
         <item name="android:homeAsUpIndicator">@drawable/ic_up_holo_light</item>
-        <item name="android:listViewWhiteStyle">@android:style/Widget.Holo.Light.ListView</item>
+        <item name="android:listViewWhiteStyle">@android:style/Widget.Holo.ListView</item>
     </style>
 
     <style name="PlainUnifiedEmailTheme" parent="@style/UnifiedEmailTheme">
@@ -397,7 +397,7 @@
 
     <style name="WaitFragmentTitle" parent="@android:style/Widget.Holo.TextView">
         <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
-        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textColor">@android:color/white</item>
         <item name="android:layout_marginBottom">8dip</item>
     </style>
 
@@ -491,7 +491,7 @@
         <item name="android:textColor">?android:attr/textColorLink</item>
     </style>
 
-    <style name="AbstractNewMessageButtonStyle" parent="@android:style/Widget.Holo.Light.Button">
+    <style name="AbstractNewMessageButtonStyle" parent="@android:style/Widget.Holo.Button">
         <item name="android:background">@drawable/btn_default</item>
         <item name="android:singleLine">true</item>
         <item name="android:textColor">@color/dark_gray_text_color</item>
